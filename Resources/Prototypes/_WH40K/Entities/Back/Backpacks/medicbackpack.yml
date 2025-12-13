@@ -1,11 +1,11 @@
 - type: entity
   parent: [Clothing, ContentsExplosionResistanceBase]
-  id: ClothingGuadsmanbackpackWH14
-  name: guardsman backpack
+  id: ClothingMedicbackpackWH14
+  name: medic backpack
   description: You wear this on your back and put items into it.
   components:
   - type: Sprite
-    sprite: _WH40K/Clothing/Back/Backpacks/Guadsmanbackpack.rsi
+    sprite: _WH40K/Clothing/Back/Backpacks/Medicbackpack.rsi
     state: icon
   - type: Item
     size: Huge
@@ -15,7 +15,7 @@
     - back
   - type: Storage
     grid:
-    - 0,0,6,3
+    - 0,0,5,3
     maxItemSize: Huge
   - type: ContainerContainer
     containers:
@@ -28,6 +28,4 @@
   - type: UseDelay
     delay: 0.5
   - type: ExplosionResistance
-    damageCoefficient: 0.80
-  - type: ClothingSpeedModifier
-    sprintModifier: 0.95
+    damageCoefficient: 0.90
