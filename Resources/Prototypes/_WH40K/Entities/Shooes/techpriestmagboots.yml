@@ -1,0 +1,15 @@
+- type: entity
+  parent: ClothingShoesBootsMagBase
+  id: ClothingShoesBootsMagbootsTechpriestWH14
+  name: tech priest magboots
+  description: Tech priest magboots, they don't slows you!
+  components:
+  - type: Sprite
+    sprite: _WH40K/Clothing/Shooes/techpriestmagdoots.rsi
+    state: icon
+  - type: Clothing
+    sprite: _WH40K/Clothing/Shooes/techpriestmagdoots.rsi
+  - type: ClothingSpeedModifier
+    walkModifier: 1
+    sprintModifier: 1
+  - type: Tag
