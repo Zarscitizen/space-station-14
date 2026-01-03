@@ -1,0 +1,13 @@
+- type: startingGear
+  id: GuardsmenWH14
+  equipment:
+    shoes: ClothingShoesMilitaryBaseBlackBootsWH14
+    gloves: ClothingHandsGlovesImpBlackWH14
+    back: ClothingGuadsmanbackpackWH14
+    belt: ClothingBeltGuardWH14Webbing
+    head: ClothingHeadHelmetGuardsmanWH14
+    outerClothing: ClothingOuterFlakVest1ArmorWH14
+    jumpsuit: ClothingGuardianSuitWH14
+  storage: 
+    back:
+    

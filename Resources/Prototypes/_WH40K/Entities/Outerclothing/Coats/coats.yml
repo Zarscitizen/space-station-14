@@ -1,0 +1,37 @@
+#############################   TECH PRIEST COAT  #################################
+- type: entity
+  parent: ClothingOuterStorageToggleableBase
+  id: ClothingOuterCoatTechpriestWH14
+  name: tech priest coat
+  description: Tech priest coat.
+  components:
+  - type: Sprite
+    sprite: _WH40K/Clothing/Outerclothing/Coats/techpriestcoat.rsi
+  - type: Clothing
+    sprite: _WH40K/Clothing/Outerclothing/Coats/techpriestcoat.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHatHoodTechPriestWH14
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.85
+        Caustic: 0.85
+        Radiation: 0.5
+        Slash: 0.80
+        Heat: 0.70
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatHoodTechPriestWH14
+  categories: [ HideSpawnMenu ]
+  name: tech priest hood
+  description: This is tech priest hood.
+  components:
+  - type: Sprite
+    sprite: _WH40K/Clothing/Head/Hood/techpriesthood.rsi
+  - type: Clothing
+    sprite: _WH40K/Clothing/Head/Hood/techpriesthood.rsi
+  - type: Tag
+  - type: HideLayerClothing
+    slots:
+    - Hair
